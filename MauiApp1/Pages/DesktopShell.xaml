@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:pages="clr-namespace:MauiApp1.Pages"
+       x:Class="MauiApp1.Pages.DesktopShell"
+       Title="DesktopShell"
+       FlyoutBehavior="Locked">
+    <Shell.FlyoutHeader>
+        <Grid>
+            
+        </Grid>
+    </Shell.FlyoutHeader>
+    
+    <FlyoutItem Title="Dashboard">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate pages:DashboardPage}"/>
+        </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Documents">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate pages:DocumentPage}"/>
+        </Tab>
+    </FlyoutItem>
+</Shell>

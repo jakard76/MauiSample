@@ -1,0 +1,12 @@
+
+*.v2
+.vs/MauiApp1/v17/.suo
+MauiApp1/.vs/MauiApp1.App/FileContentIndex/22044311-0f5f-49a4-85bd-48a1f074abf7.vsidx
+MauiApp1/.vs/MauiApp1.App/FileContentIndex/388f27e9-b206-4750-b460-ba20b20bfaaf.vsidx
+MauiApp1/.vs/MauiApp1.App/FileContentIndex/3f04be49-669d-4d62-b991-2414aef142d9.vsidx
+MauiApp1/.vs/MauiApp1.App/FileContentIndex/e208b9ca-7167-40db-bcd6-d5068b736899.vsidx
+MauiApp1/.vs/MauiApp1.App/FileContentIndex/read.lock
+MauiApp1/.vs/ProjectEvaluation/mauiapp1.app.metadata.v3
+MauiApp1/.vs/ProjectEvaluation/mauiapp1.app.projects.v3
+[Bb]in/
+[Oo]bj/

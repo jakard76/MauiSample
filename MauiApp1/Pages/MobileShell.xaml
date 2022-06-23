@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:pages="clr-namespace:MauiApp1.Pages"
+       x:Class="MauiApp1.Pages.MobileShell"
+       Title="MobileShell"
+       FlyoutBehavior="Locked">
+    <TabBar>
+        <Tab Title="Dashboard">
+            <ShellContent ContentTemplate="{DataTemplate pages:DashboardPage}"/>
+        </Tab>
+        <Tab Title="Documents">
+            <ShellContent ContentTemplate="{DataTemplate pages:DocumentPage}"/>
+        </Tab>
+    </TabBar>
+</Shell>
