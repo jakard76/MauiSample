@@ -3,8 +3,7 @@
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:pages="clr-namespace:MauiApp1.Pages"
        x:Class="MauiApp1.Pages.MobileShell"
-       Title="MobileShell"
-       FlyoutBehavior="Locked">
+       Title="MobileShell">
     <TabBar>
         <Tab Title="Dashboard">
             <ShellContent ContentTemplate="{DataTemplate pages:DashboardPage}"/>
